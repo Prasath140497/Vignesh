@@ -1,0 +1,1161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Verifying Adactin Search Hotel Page details with vaild credentials",
+        "description": "",
+        "id": "verifying-adactin-search-hotel-page-in-details;verifying-adactin-search-hotel-page-details-with-vaild-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25076345899,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Should on the Adactin Hotel Login page",
+            "match": {
+              "location": "AdactinHotelPractice.method01()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 585198100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Login \"Prasath14\" and \"83594P\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prasath14\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"83594P\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinHotelPractice.method02(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1896230200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Should Click login",
+            "match": {
+              "location": "AdactinHotelPractice.method03()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using id\u003droom_type\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-17L4VUB\u0027, ip: \u0027172.20.10.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.stepdefinition.AdactinHotelPractice.method04(AdactinHotelPractice.java:47)\r\n\tat ✽.User Should Search \"paris\",\"Hotel Creek\",\"Double\",\"1 - One\",\"21/06/2022\",\"21/06/2022\",\"1 - One\"and\"1 - One\"(C:/Users/DELL/eclipse-workspace/MavenHari/src/test/resources/Features/CucumberTask02.feature:7)\r\n",
+              "duration": 4733393100,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User Should Search \"paris\",\"Hotel Creek\",\"Double\",\"1 - One\",\"21/06/2022\",\"21/06/2022\",\"1 - One\"and\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 98
+                }
+              ],
+              "location": "AdactinHotelPractice.method04(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11099,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Should Click Search Button",
+            "match": {
+              "location": "AdactinHotelPractice.method05()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verifying Adactin Search Hotel Page details with vaild credentials",
+        "description": "",
+        "id": "verifying-adactin-search-hotel-page-in-details;verifying-adactin-search-hotel-page-details-with-vaild-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9568908100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Should on the Adactin Hotel Login page",
+            "match": {
+              "location": "AdactinHotelPractice.method01()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 277693599,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Login \"Prasath14\" and \"83594P\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prasath14\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"83594P\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinHotelPractice.method02(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1369598999,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Should Click login",
+            "match": {
+              "location": "AdactinHotelPractice.method03()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 884752200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Should Search \"london\",\"Hotel Creek\",\"Double\",\"1 - One\",\"21/06/2022\",\"21/06/2022\",\"1 - One\"and\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"london\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 99
+                }
+              ],
+              "location": "AdactinHotelPractice.method04(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1716414399,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should Click Search Button",
+            "match": {
+              "location": "AdactinHotelPractice.method05()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verifying Adactin Search Hotel Page details with vaild credentials",
+        "description": "",
+        "id": "verifying-adactin-search-hotel-page-in-details;verifying-adactin-search-hotel-page-details-with-vaild-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8713022000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Should on the Adactin Hotel Login page",
+            "match": {
+              "location": "AdactinHotelPractice.method01()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259482900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Login \"Prasath14\" and \"83594P\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prasath14\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"83594P\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinHotelPractice.method02(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1356524400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Should Click login",
+            "match": {
+              "location": "AdactinHotelPractice.method03()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 864240799,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Should Search \"paris\",\"Hotel Hervey\",\"Deluxe\",\"2 - Two\",\"21/06/2022\",\"21/06/2022\",\"2 - Two\"and\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 99
+                }
+              ],
+              "location": "AdactinHotelPractice.method04(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2194094800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should Click Search Button",
+            "match": {
+              "location": "AdactinHotelPractice.method05()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verifying Adactin Search Hotel Page details with vaild credentials",
+        "description": "",
+        "id": "verifying-adactin-search-hotel-page-in-details;verifying-adactin-search-hotel-page-details-with-vaild-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-17L4VUB\u0027, ip: \u0027172.20.10.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9f2b5bf3019053e911428b4ede857913\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat com.stepdefinition.AdactinHotelPractice.method01(AdactinHotelPractice.java:25)\r\n\tat ✽.User Should on the Adactin Hotel Login page(C:/Users/DELL/eclipse-workspace/MavenHari/src/test/resources/Features/CucumberTask02.feature:4)\r\n",
+              "duration": 39566432901,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User Should on the Adactin Hotel Login page",
+            "match": {
+              "location": "AdactinHotelPractice.method01()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20600,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Should Login \"Prasath14\" and \"83594P\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prasath14\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"83594P\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinHotelPractice.method02(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11801,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Should Click login",
+            "match": {
+              "location": "AdactinHotelPractice.method03()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11599,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User Should Search \"paris\",\"Hotel Creek\",\"Double\",\"1 - One\",\"22/06/2022\",\"23/06/2022\",\"1 - One\"and\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"22/06/2022\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"23/06/2022\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 98
+                }
+              ],
+              "location": "AdactinHotelPractice.method04(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Should Click Search Button",
+            "match": {
+              "location": "AdactinHotelPractice.method05()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Verifying Adactin Search Hotel Page details with vaild credentials",
+        "description": "",
+        "id": "verifying-adactin-search-hotel-page-in-details;verifying-adactin-search-hotel-page-details-with-vaild-credentials;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-17L4VUB\u0027, ip: \u0027172.20.10.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b006135616b5cdc866bedff79d5cdbd\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat com.stepdefinition.AdactinHotelPractice.method01(AdactinHotelPractice.java:24)\r\n\tat ✽.User Should on the Adactin Hotel Login page(C:/Users/DELL/eclipse-workspace/MavenHari/src/test/resources/Features/CucumberTask02.feature:4)\r\n",
+              "duration": 3491135401,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User Should on the Adactin Hotel Login page",
+            "match": {
+              "location": "AdactinHotelPractice.method01()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14701,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Should Login \"Prasath14\" and \"83594P\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prasath14\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"83594P\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinHotelPractice.method02(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11101,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Should Click login",
+            "match": {
+              "location": "AdactinHotelPractice.method03()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User Should Search \"london\",\"Hotel Hervey\",\"Deluxe\",\"1 - One\",\"21/06/2022\",\"21/06/2022\",\"2 - Two\"and\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"london\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 100
+                }
+              ],
+              "location": "AdactinHotelPractice.method04(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Should Click Search Button",
+            "match": {
+              "location": "AdactinHotelPractice.method05()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verifying Adactin Search Hotel Page details with vaild credentials",
+        "description": "",
+        "id": "verifying-adactin-search-hotel-page-in-details;verifying-adactin-search-hotel-page-details-with-vaild-credentials;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-17L4VUB\u0027, ip: \u0027172.20.10.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50467}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fe1e5c029af1955f256f654f42adcf15\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat com.stepdefinition.AdactinHotelPractice.method01(AdactinHotelPractice.java:24)\r\n\tat ✽.User Should on the Adactin Hotel Login page(C:/Users/DELL/eclipse-workspace/MavenHari/src/test/resources/Features/CucumberTask02.feature:4)\r\n",
+              "duration": 3231109400,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User Should on the Adactin Hotel Login page",
+            "match": {
+              "location": "AdactinHotelPractice.method01()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35999,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Should Login \"Prasath14\" and \"83594P\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prasath14\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"83594P\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinHotelPractice.method02(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Should Click login",
+            "match": {
+              "location": "AdactinHotelPractice.method03()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User Should Search \"paris\",\"Hotel Creek\",\"Double\",\"2 - Two\",\"24/06/2022\",\"25/06/2022\",\"1 - One\"and\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"24/06/2022\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"25/06/2022\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 98
+                }
+              ],
+              "location": "AdactinHotelPractice.method04(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Should Click Search Button",
+            "match": {
+              "location": "AdactinHotelPractice.method05()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verifying Adactin Search Hotel Page details with vaild credentials",
+        "description": "",
+        "id": "verifying-adactin-search-hotel-page-in-details;verifying-adactin-search-hotel-page-details-with-vaild-credentials;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-17L4VUB\u0027, ip: \u0027172.20.10.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f9dbeb683a681aa7e04123a1dd0d3d39\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat com.stepdefinition.AdactinHotelPractice.method01(AdactinHotelPractice.java:24)\r\n\tat ✽.User Should on the Adactin Hotel Login page(C:/Users/DELL/eclipse-workspace/MavenHari/src/test/resources/Features/CucumberTask02.feature:4)\r\n",
+              "duration": 4034430299,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User Should on the Adactin Hotel Login page",
+            "match": {
+              "location": "AdactinHotelPractice.method01()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Should Login \"Prasath14\" and \"83594P\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prasath14\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"83594P\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinHotelPractice.method02(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13001,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Should Click login",
+            "match": {
+              "location": "AdactinHotelPractice.method03()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User Should Search \"paris\",\"Hotel Creek\",\"Double\",\"1 - One\",\"21/06/2022\",\"21/06/2022\",\"1 - One\"and\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 98
+                }
+              ],
+              "location": "AdactinHotelPractice.method04(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Should Click Search Button",
+            "match": {
+              "location": "AdactinHotelPractice.method05()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verifying Adactin Search Hotel Page details with vaild credentials",
+        "description": "",
+        "id": "verifying-adactin-search-hotel-page-in-details;verifying-adactin-search-hotel-page-details-with-vaild-credentials;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-17L4VUB\u0027, ip: \u0027172.20.10.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c8f8f6db41eaf49c793f2f0bdc5c89b2\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat com.stepdefinition.AdactinHotelPractice.method01(AdactinHotelPractice.java:24)\r\n\tat ✽.User Should on the Adactin Hotel Login page(C:/Users/DELL/eclipse-workspace/MavenHari/src/test/resources/Features/CucumberTask02.feature:4)\r\n",
+              "duration": 2744308899,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User Should on the Adactin Hotel Login page",
+            "match": {
+              "location": "AdactinHotelPractice.method01()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Should Login \"Prasath14\" and \"83594P\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prasath14\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"83594P\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinHotelPractice.method02(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Should Click login",
+            "match": {
+              "location": "AdactinHotelPractice.method03()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User Should Search \"new york\",\"Hotel Creek\",\"Deluxe\",\"2 - Two\",\"21/06/2022\",\"21/06/2022\",\"2 - Two\"and\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"new york\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 101
+                }
+              ],
+              "location": "AdactinHotelPractice.method04(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7799,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Should Click Search Button",
+            "match": {
+              "location": "AdactinHotelPractice.method05()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verifying Adactin Search Hotel Page details with vaild credentials",
+        "description": "",
+        "id": "verifying-adactin-search-hotel-page-in-details;verifying-adactin-search-hotel-page-details-with-vaild-credentials;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-17L4VUB\u0027, ip: \u0027172.20.10.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ae6f9258534d7af8b549f365bd71c8fa\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat com.stepdefinition.AdactinHotelPractice.method01(AdactinHotelPractice.java:24)\r\n\tat ✽.User Should on the Adactin Hotel Login page(C:/Users/DELL/eclipse-workspace/MavenHari/src/test/resources/Features/CucumberTask02.feature:4)\r\n",
+              "duration": 5162966000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User Should on the Adactin Hotel Login page",
+            "match": {
+              "location": "AdactinHotelPractice.method01()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Should Login \"Prasath14\" and \"83594P\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prasath14\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"83594P\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinHotelPractice.method02(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9401,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Should Click login",
+            "match": {
+              "location": "AdactinHotelPractice.method03()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7901,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User Should Search \"paris\",\"Hotel Creek\",\"Double\",\"1 - One\",\"21/06/2022\",\"21/06/2022\",\"1 - One\"and\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 98
+                }
+              ],
+              "location": "AdactinHotelPractice.method04(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6200,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Should Click Search Button",
+            "match": {
+              "location": "AdactinHotelPractice.method05()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verifying Adactin Search Hotel Page details with vaild credentials",
+        "description": "",
+        "id": "verifying-adactin-search-hotel-page-in-details;verifying-adactin-search-hotel-page-details-with-vaild-credentials;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-17L4VUB\u0027, ip: \u0027172.20.10.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f4d1cd90641d8f39f95e66aa8c1070cb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat com.stepdefinition.AdactinHotelPractice.method01(AdactinHotelPractice.java:25)\r\n\tat ✽.User Should on the Adactin Hotel Login page(C:/Users/DELL/eclipse-workspace/MavenHari/src/test/resources/Features/CucumberTask02.feature:4)\r\n",
+              "duration": 10239252300,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User Should on the Adactin Hotel Login page",
+            "match": {
+              "location": "AdactinHotelPractice.method01()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Should Login \"Prasath14\" and \"83594P\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prasath14\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"83594P\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinHotelPractice.method02(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Should Click login",
+            "match": {
+              "location": "AdactinHotelPractice.method03()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User Should Search \"paris\",\"Hotel Creek\",\"Double\",\"1 - One\",\"21/06/2022\",\"21/06/2022\",\"1 - One\"and\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"21/06/2022\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 98
+                }
+              ],
+              "location": "AdactinHotelPractice.method04(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5699,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Should Click Search Button",
+            "match": {
+              "location": "AdactinHotelPractice.method05()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin Search Hotel Page in details",
+    "description": "",
+    "id": "verifying-adactin-search-hotel-page-in-details",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/eclipse-workspace/MavenHari/src/test/resources/Features/CucumberTask02.feature",
+    "tags": []
+  }
+]

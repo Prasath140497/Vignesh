@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="64" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+      <class name="org.test.Testng">
+        <test-method status="PASS" signature="ram()[pri:0, instance:org.test.Testng@7e0b0338]" name="ram" is-config="true" duration-ms="16" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ram -->
+        <test-method status="PASS" signature="rojaKarthikk()[pri:0, instance:org.test.Testng@7e0b0338]" name="rojaKarthikk" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rojaKarthikk -->
+        <test-method status="PASS" signature="naveen()[pri:-19, instance:org.test.Testng@7e0b0338]" name="naveen" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naveen -->
+        <test-method status="PASS" signature="kumar()[pri:0, instance:org.test.Testng@7e0b0338]" name="kumar" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kumar -->
+        <test-method status="PASS" signature="sony()[pri:0, instance:org.test.Testng@7e0b0338]" name="sony" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sony -->
+        <test-method status="PASS" signature="kumar()[pri:0, instance:org.test.Testng@7e0b0338]" name="kumar" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kumar -->
+        <test-method status="PASS" signature="kumar()[pri:0, instance:org.test.Testng@7e0b0338]" name="kumar" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kumar -->
+        <test-method status="PASS" signature="hari()[pri:0, instance:org.test.Testng@7e0b0338]" name="hari" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hari -->
+        <test-method status="PASS" signature="prakash()[pri:-10, instance:org.test.Testng@7e0b0338]" name="prakash" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prakash -->
+        <test-method status="PASS" signature="sony()[pri:0, instance:org.test.Testng@7e0b0338]" name="sony" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sony -->
+        <test-method status="PASS" signature="sony()[pri:0, instance:org.test.Testng@7e0b0338]" name="sony" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sony -->
+        <test-method status="PASS" signature="kumar()[pri:0, instance:org.test.Testng@7e0b0338]" name="kumar" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kumar -->
+        <test-method status="PASS" signature="kumar()[pri:0, instance:org.test.Testng@7e0b0338]" name="kumar" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kumar -->
+        <test-method status="PASS" signature="hema()[pri:0, instance:org.test.Testng@7e0b0338]" name="hema" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hema -->
+        <test-method status="PASS" signature="vivek()[pri:0, instance:org.test.Testng@7e0b0338]" name="vivek" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vivek -->
+        <test-method status="PASS" signature="sony()[pri:0, instance:org.test.Testng@7e0b0338]" name="sony" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sony -->
+        <test-method status="PASS" signature="hema()[pri:0, instance:org.test.Testng@7e0b0338]" name="hema" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hema -->
+        <test-method status="PASS" signature="sony()[pri:0, instance:org.test.Testng@7e0b0338]" name="sony" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sony -->
+        <test-method status="PASS" signature="sasi()[pri:0, instance:org.test.Testng@7e0b0338]" name="sasi" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sasi -->
+        <test-method status="PASS" signature="kumar()[pri:0, instance:org.test.Testng@7e0b0338]" name="kumar" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kumar -->
+        <test-method status="PASS" signature="sony()[pri:0, instance:org.test.Testng@7e0b0338]" name="sony" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sony -->
+      </class> <!-- org.test.Testng -->
+      <class name="org.test.JavaMaen">
+        <test-method status="PASS" signature="ksk()[pri:0, instance:org.test.JavaMaen@617faa95]" name="ksk" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ksk -->
+        <test-method status="PASS" signature="sugan()[pri:0, instance:org.test.JavaMaen@617faa95]" name="sugan" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sugan -->
+        <test-method status="PASS" signature="nagu()[pri:-19, instance:org.test.JavaMaen@617faa95]" name="nagu" duration-ms="15" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nagu -->
+        <test-method status="PASS" signature="srk()[pri:0, instance:org.test.JavaMaen@617faa95]" name="srk" is-config="true" duration-ms="0" started-at="2022-07-02T13:56:59Z" finished-at="2022-07-02T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- srk -->
+      </class> <!-- org.test.JavaMaen -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
